@@ -5,6 +5,10 @@ body{
     background-color: blue;
 }
 
+header{
+    
+}
+
 main{
     height: 550px;
     width: 550px;
@@ -24,5 +28,9 @@ main{
     box-sizing: border-box;
     cursor: pointer;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10rem;
 }
 
