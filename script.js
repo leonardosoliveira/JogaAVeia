@@ -1,4 +1,5 @@
 let player1 = "playerA";
+
 let player2 = "playerB";
 
 let jogador = player1;
@@ -65,6 +66,7 @@ function valores(){
     
      vitoria();
      vitoriaO();
+    
      if(i>9){
         alert("Nao houve ganhadores");
     }
@@ -113,9 +115,14 @@ function vitoriaO(){
 
     
 function ganhar(){
-   alert("X");
+   alert("O vencedor foi o jogador X");
 }
 function ganharO(){
-    alert("O");
+    alert("O vencedor foi o jogador O");
 }
+function novoJogo(){
+    window.parent.location.reload();
+
+}
+
 
