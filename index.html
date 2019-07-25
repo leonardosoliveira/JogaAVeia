@@ -10,14 +10,21 @@
 </head>
 <body>
     
-    <header><h1>Jogo da Velha</h1>
-        
+    <header><h1>Jogo da </div> Velha</h1>
     </header>
     <section>
+   <div>
     <button onclick="novoJogo()">Novo Jogo</button>
-    <input id="nome" type="text" name="nome" value="" placeholder="Jogador 1" autocomplete="off"/>
-    <input type="text" name="nome" value="" placeholder="Jogador 2" autocomplete="off"/>
-    
+    </div>
+
+<form id="texto" name="texto">
+  <input name="texto"placeholder="Jogador 1" autocomplete="off"></input>
+  <input name="text"placeholder="Jogador 2" autocomplete="off"></input>
+</form>
+
+<input name="texto" type="submit" onclick="salvarNome('mostra')" value="Jogar"/>
+
+
 </section>
     <main>
         
@@ -50,8 +57,5 @@
         </div>
         
     </main>
-    <aside>
-        
-    </aside>
 </body>
 </html>

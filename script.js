@@ -115,14 +115,23 @@ function vitoriaO(){
 
     
 function ganhar(){
-   alert("O vencedor foi o jogador X");
+   alert("O vencedor foi o jogador "+jogador1);
 }
 function ganharO(){
-    alert("O vencedor foi o jogador O");
+    alert("O vencedor foi o jogador "+jogador2);
 }
 function novoJogo(){
     window.parent.location.reload();
 
 }
+
+function salvarNome(div)
+{let pegarJog1 = document.texto.texto.value;
+     jogador1 = pegarJog1;
+ let pegarJog2 = document.texto.text.value;
+     jogador2 = pegarJog2;
+}
+
+
 
 
